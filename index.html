@@ -1,9 +1,85 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mathewos Ayelework | Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav">
+        <div class="brand">Mathewos Ayelework</div>
+        <nav>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
 
-<body>
-  <h1>Mathewos Ayelework</h1>
-  <p>Welcome to my website!</p>
-  <img src="./src/sahur-tung-tung-tung-sahur.gif" />
-</body>
+    <main class="container">
+      <section class="hero">
+        <div class="hero-text">
+          <p class="eyebrow">Student / Developer / Creator</p>
+          <h1>Building simple, useful digital experiences.</h1>
+          <p>
+            Hi, I’m Mathewos. I enjoy learning web design, coding, and making
+            ideas come to life through clean, thoughtful projects.
+          </p>
+          <div class="cta-row">
+            <a class="button primary" href="resume.txt">View Resume</a>
+            <a class="button secondary" href="blog.html">Read My Blog</a>
+          </div>
+        </div>
 
+        <div class="hero-image">
+          <img src="src/sahur-tung-tung-tung-sahur.gif" alt="Profile illustration" />
+        </div>
+      </section>
+
+      <section id="about" class="card">
+        <h2>About Me</h2>
+        <p>
+          I’m currently exploring technology, design, and problem-solving. I like
+          turning ideas into accessible, user-friendly products with a focus on
+          clarity and creativity.
+        </p>
+      </section>
+
+      <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+          <article class="card">
+            <h3>Personal Portfolio</h3>
+            <p>A clean website representing my skills, projects, and personality.</p>
+          </article>
+          <article class="card">
+            <h3>Creative Web Design</h3>
+            <p>Exploring layouts, colors, and typography to improve how users connect with content.</p>
+          </article>
+          <article class="card">
+            <h3>Learning & Growth</h3>
+            <p>Constantly building small projects to sharpen my coding, design, and communication skills.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="contact card">
+        <h2>Contact</h2>
+        <ul>
+          <li>Email: hello@example.com</li>
+          <li><a href="https://github.com/mathew2005" target="_blank" rel="noreferrer">GitHub</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Mathewos Ayelework</p>
+      <p>Made using AI.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>

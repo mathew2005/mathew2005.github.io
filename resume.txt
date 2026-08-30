@@ -1,0 +1,19 @@
+Mathewos Ayelework
+
+Profile
+A student and aspiring developer focused on creative problem-solving, web design, and learning through practical projects.
+
+Skills
+- HTML
+- CSS
+- JavaScript
+- Design and layout
+- Problem solving
+
+Experience
+- Personal projects and portfolio work
+- Learning web development through hands-on practice
+
+Contact
+GitHub: https://github.com/mathew2005
+Email: hello@example.com
