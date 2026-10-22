@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Open Source Reflection: A Semester Contributing to BCSR</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav">
+        <div class="brand">Mathewos Ayelework</div>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="resume.txt">Resume</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container blog-page">
+      <article class="blog-post card">
+        <h1>Open Source Reflection: A Semester Contributing to BCSR</h1>
+        <p>October 21, 2026</p>
+        <p>This semester in CSC 426 I have been contributing to BCSR, a production web application used at Berea College. The project is maintained by the Berea College Student Software Development Team, and students like me pick up real issues from its tracker: bugs, missing documentation, form problems, setup problems. Working on it has put me in three roles at once. I am a user of open source software, a student learning from it, and now a contributor whose code other people review and depend on. Each role shows a different side of the open source model.</p>
+        <p>As a user, open source is easy to take for granted. The tools I use every day are mostly open, and the benefit is obvious: no license cost, no vendor deciding when a feature disappears, and code I can inspect when something breaks. As a student, the value is different. Reading a real codebase teaches things a classroom exercise cannot, because the code was written by many people over many years and it carries their decisions, shortcuts, and mistakes. As a contributor, I feel the cost side. My work moves at the speed of other people's review time. An issue can look small and still take weeks because a peer has to approve it, a maintainer has to request changes, and the branch has to be updated before anything merges.</p>
+        <p>My thesis is this: open source is an effective model for critical software infrastructure, but only when openness is paired with accountable maintenance. Open code by itself guarantees nothing. What makes it work is a process around the code: named maintainers, mandatory review, a security policy, and documentation that a new contributor can actually follow. The ethical side matters too. When an institution depends on software, that software becomes part of the public good, and open development spreads the benefit to everyone instead of locking it inside one company. But there is a fairness problem. If critical systems rest on rotating, unpaid contributors, the risk quietly shifts onto the people with the least power to refuse the work, and onto users when the software fails. Openness is the right default for infrastructure. It just has to come with real responsibility attached, or it becomes a way to get critical labor for free.</p>
+        <p>BCSR is a small example of both halves of that argument. The app survives because new students keep arriving and picking up issues, which no single vendor could be hired to do at this scale. At the same time, its weak points are process points. While working on placeholder database credentials for new contributors, I found a setup script pointing at a configuration path that does not exist, and an example config file from 2020 duplicating the one I was adding. Nothing about the code being open caused those problems. They came from documentation and setup steps that nobody owned.</p>
+        <p>For progress: so far I have one merged pull request, a one-point fix that made the Close button red and the Save button green on the deadline edit form. It finished exactly at its estimate. Three more pull requests are open. A contributor guide with a security policy and a code owners file was estimated at three points and is running two points over, because review rounds kept adding scope: naming maintainers, covering both clone and fork workflows, and merging the development branch back in. The credentials pull request was estimated at two points and is running one over, because of the broken setup files I found along the way. I also published an issue of my own after finding that the description field on the deadline form cannot be clicked at narrower screen widths, and my fix for it is now open and peer-approved. Team dynamics shape all of this. Our flow is peer review first, then maintainer review, so a pull request is a conversation, not a submission. One of my approved fixes even saw its issue reopened the same morning, which is a reminder that done in open source is always provisional.</p>
+        <p>What I take from this so far is that contributing is less about writing code than about joining a system that keeps code trustworthy. My next step is getting the two open pull requests through maintainer review, and I expect the estimates to keep teaching me how much of software work is everything around the code.</p>
+      </article>
+    </main>
+  </body>
+</html>
